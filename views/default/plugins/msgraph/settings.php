@@ -4,6 +4,13 @@
 $plugin = elgg_extract('entity', $vars);
 
 echo elgg_view_input('text', [
+	'label' => elgg_echo('msgraph:settings:tenant_id'),
+	'help' => elgg_echo('msgraph:settings:tenant_id:help'),
+	'name' => 'params[tenant_id]',
+	'value' => $plugin->getSetting('tenant_id', 'common'),
+]);
+
+echo elgg_view_input('text', [
 	'label' => elgg_echo('msgraph:settings:client_id'),
 	'help' => elgg_echo('msgraph:settings:client_id:help'),
 	'name' => 'params[client_id]',
