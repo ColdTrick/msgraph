@@ -3,8 +3,8 @@
 return [
 	
 	// plugin settings
-	'msgraph:settings:client_id' => "Azure tenant ID",
-	'msgraph:settings:client_id:help' => "If you use a corporate Azure, you can configure the tenant ID for easy authorization",
+	'msgraph:settings:tenant_id' => "Azure tenant ID",
+	'msgraph:settings:tenant_id:help' => "If you use a corporate Azure, you can configure the tenant ID for easy authorization",
 	'msgraph:settings:client_id' => "Client/application ID",
 	'msgraph:settings:client_id:help' => "The ID of the application as reported in Azure",
 	'msgraph:settings:client_secret' => "Client secret",
